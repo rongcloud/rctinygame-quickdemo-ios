@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.0'
+
+def rc_game_engine_dev_pod
+  pod 'RCTinyGameLib'
+end
+
+
+
+def development_pods
+  rc_game_engine_dev_pod
+end
+
+
+
+target 'RCTinyGameQuickDemo' do
+  pod 'RCVoiceRoomLib'
+  pod 'Masonry'
+  pod 'SVProgressHUD'
+  pod 'YYModel'
+  pod 'AFNetworking'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'RCChatroomSceneKit'
+  development_pods
+end
+

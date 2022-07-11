@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A839DE072A4995E6EB203BAB /* libPods-RCTinyGameQuickDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B68BDEF5087EDEC0CE421D1 /* libPods-RCTinyGameQuickDemo.a */; };
+		D3EB461D286EFD6500423BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EB461B286EFD6500423BF1 /* LaunchScreen.storyboard */; };
+		D3EB4620286EFD6500423BF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB461F286EFD6500423BF1 /* main.m */; };
+		D3EB4670286EFEA200423BF1 /* RCAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4626286EFEA200423BF1 /* RCAppDelegate.mm */; };
+		D3EB4671286EFEA200423BF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3EB4627286EFEA200423BF1 /* Localizable.strings */; };
+		D3EB4672286EFEA200423BF1 /* UIViewController+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4629286EFEA200423BF1 /* UIViewController+CurrentViewController.m */; };
+		D3EB4673286EFEA200423BF1 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB462A286EFEA200423BF1 /* UIColor+Hex.m */; };
+		D3EB4674286EFEA200423BF1 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB462F286EFEA200423BF1 /* NSString+MD5.m */; };
+		D3EB4675286EFEA200423BF1 /* NSArray+VRSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4630286EFEA200423BF1 /* NSArray+VRSModel.m */; };
+		D3EB4676286EFEA200423BF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3EB4632286EFEA200423BF1 /* InfoPlist.strings */; };
+		D3EB4677286EFEA200423BF1 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3EB4635286EFEA200423BF1 /* LaunchScreen.strings */; };
+		D3EB4678286EFEA200423BF1 /* RCGameService.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB463A286EFEA200423BF1 /* RCGameService.m */; };
+		D3EB4679286EFEA200423BF1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB463C286EFEA200423BF1 /* LoginViewController.m */; };
+		D3EB467A286EFEA200423BF1 /* LoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB463F286EFEA200423BF1 /* LoginResponse.m */; };
+		D3EB467B286EFEA200423BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EB4640286EFEA200423BF1 /* Assets.xcassets */; };
+		D3EB467C286EFEA200423BF1 /* ZUIYOUGameInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4644286EFEA200423BF1 /* ZUIYOUGameInfo.m */; };
+		D3EB467D286EFEA200423BF1 /* GameListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4646286EFEA200423BF1 /* GameListTableViewCell.m */; };
+		D3EB467E286EFEA200423BF1 /* GameListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4649286EFEA200423BF1 /* GameListViewController.m */; };
+		D3EB467F286EFEA200423BF1 /* CreateRoomResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB464E286EFEA200423BF1 /* CreateRoomResponse.m */; };
+		D3EB4680286EFEA200423BF1 /* GameMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB464F286EFEA200423BF1 /* GameMessage.m */; };
+		D3EB4681286EFEA200423BF1 /* RoomUserListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4650286EFEA200423BF1 /* RoomUserListResponse.m */; };
+		D3EB4682286EFEA200423BF1 /* SelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4655286EFEA200423BF1 /* SelectView.m */; };
+		D3EB4683286EFEA200423BF1 /* RWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4658286EFEA200423BF1 /* RWTableView.m */; };
+		D3EB4684286EFEA200423BF1 /* RWCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB465C286EFEA200423BF1 /* RWCollectionView.m */; };
+		D3EB4685286EFEA200423BF1 /* SeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB465D286EFEA200423BF1 /* SeatView.m */; };
+		D3EB4686286EFEA200423BF1 /* SeatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB465E286EFEA200423BF1 /* SeatCell.m */; };
+		D3EB4687286EFEA200423BF1 /* GameRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB4663286EFEA200423BF1 /* GameRoomViewController.m */; };
+		D3EB4689286EFEA200423BF1 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB466A286EFEA200423BF1 /* UserManager.m */; };
+		D3EB468A286EFEA200423BF1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB466B286EFEA200423BF1 /* User.m */; };
+		D3EB468B286EFEA200423BF1 /* LaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EB466E286EFEA200423BF1 /* LaunchManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D39FF31B2872D1F2002D1AE2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4573D9D5DD780B52BB660E1D /* Pods-RCTinyGameQuickDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTinyGameQuickDemo.debug.xcconfig"; path = "Target Support Files/Pods-RCTinyGameQuickDemo/Pods-RCTinyGameQuickDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4B68BDEF5087EDEC0CE421D1 /* libPods-RCTinyGameQuickDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTinyGameQuickDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9153BB16EC1D9B53AA0784D6 /* Pods-RCTinyGameQuickDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTinyGameQuickDemo.release.xcconfig"; path = "Target Support Files/Pods-RCTinyGameQuickDemo/Pods-RCTinyGameQuickDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D3EB460A286EFD6400423BF1 /* RCTinyGameQuickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCTinyGameQuickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EB461C286EFD6500423BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3EB461E286EFD6500423BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EB461F286EFD6500423BF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3EB4626286EFEA200423BF1 /* RCAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCAppDelegate.mm; sourceTree = "<group>"; };
+		D3EB4627286EFEA200423BF1 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D3EB4629286EFEA200423BF1 /* UIViewController+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CurrentViewController.m"; sourceTree = "<group>"; };
+		D3EB462A286EFEA200423BF1 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		D3EB462B286EFEA200423BF1 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		D3EB462C286EFEA200423BF1 /* NSArray+VRSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+VRSModel.h"; sourceTree = "<group>"; };
+		D3EB462D286EFEA200423BF1 /* UIViewController+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CurrentViewController.h"; sourceTree = "<group>"; };
+		D3EB462E286EFEA200423BF1 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		D3EB462F286EFEA200423BF1 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		D3EB4630286EFEA200423BF1 /* NSArray+VRSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+VRSModel.m"; sourceTree = "<group>"; };
+		D3EB4633286EFEA200423BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D3EB4636286EFEA200423BF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = LaunchScreen.strings; sourceTree = "<group>"; };
+		D3EB4637286EFEA200423BF1 /* RCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
+		D3EB4639286EFEA200423BF1 /* RCGameService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCGameService.h; sourceTree = "<group>"; };
+		D3EB463A286EFEA200423BF1 /* RCGameService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCGameService.m; sourceTree = "<group>"; };
+		D3EB463C286EFEA200423BF1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D3EB463D286EFEA200423BF1 /* LoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResponse.h; sourceTree = "<group>"; };
+		D3EB463E286EFEA200423BF1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D3EB463F286EFEA200423BF1 /* LoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResponse.m; sourceTree = "<group>"; };
+		D3EB4640286EFEA200423BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3EB4643286EFEA200423BF1 /* ZUIYOUGameInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUIYOUGameInfo.h; sourceTree = "<group>"; };
+		D3EB4644286EFEA200423BF1 /* ZUIYOUGameInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUIYOUGameInfo.m; sourceTree = "<group>"; };
+		D3EB4646286EFEA200423BF1 /* GameListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameListTableViewCell.m; sourceTree = "<group>"; };
+		D3EB4647286EFEA200423BF1 /* GameListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameListTableViewCell.h; sourceTree = "<group>"; };
+		D3EB4649286EFEA200423BF1 /* GameListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameListViewController.m; sourceTree = "<group>"; };
+		D3EB464A286EFEA200423BF1 /* GameListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameListViewController.h; sourceTree = "<group>"; };
+		D3EB464D286EFEA200423BF1 /* RoomUserListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomUserListResponse.h; sourceTree = "<group>"; };
+		D3EB464E286EFEA200423BF1 /* CreateRoomResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRoomResponse.m; sourceTree = "<group>"; };
+		D3EB464F286EFEA200423BF1 /* GameMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMessage.m; sourceTree = "<group>"; };
+		D3EB4650286EFEA200423BF1 /* RoomUserListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomUserListResponse.m; sourceTree = "<group>"; };
+		D3EB4651286EFEA200423BF1 /* CreateRoomResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRoomResponse.h; sourceTree = "<group>"; };
+		D3EB4652286EFEA200423BF1 /* GameMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMessage.h; sourceTree = "<group>"; };
+		D3EB4655286EFEA200423BF1 /* SelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectView.m; sourceTree = "<group>"; };
+		D3EB4656286EFEA200423BF1 /* RWTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTableView.h; sourceTree = "<group>"; };
+		D3EB4657286EFEA200423BF1 /* SelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectView.h; sourceTree = "<group>"; };
+		D3EB4658286EFEA200423BF1 /* RWTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTableView.m; sourceTree = "<group>"; };
+		D3EB465A286EFEA200423BF1 /* SeatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatView.h; sourceTree = "<group>"; };
+		D3EB465B286EFEA200423BF1 /* SeatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatCell.h; sourceTree = "<group>"; };
+		D3EB465C286EFEA200423BF1 /* RWCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWCollectionView.m; sourceTree = "<group>"; };
+		D3EB465D286EFEA200423BF1 /* SeatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatView.m; sourceTree = "<group>"; };
+		D3EB465E286EFEA200423BF1 /* SeatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatCell.m; sourceTree = "<group>"; };
+		D3EB465F286EFEA200423BF1 /* RWCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWCollectionView.h; sourceTree = "<group>"; };
+		D3EB4660286EFEA200423BF1 /* SeatDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatDefine.h; sourceTree = "<group>"; };
+		D3EB4662286EFEA200423BF1 /* GameRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRoomViewController.h; sourceTree = "<group>"; };
+		D3EB4663286EFEA200423BF1 /* GameRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRoomViewController.m; sourceTree = "<group>"; };
+		D3EB4668286EFEA200423BF1 /* LaunchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchManager.h; sourceTree = "<group>"; };
+		D3EB466A286EFEA200423BF1 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		D3EB466B286EFEA200423BF1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D3EB466C286EFEA200423BF1 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		D3EB466D286EFEA200423BF1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D3EB466E286EFEA200423BF1 /* LaunchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchManager.m; sourceTree = "<group>"; };
+		D3EB466F286EFEA200423BF1 /* VRSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSDefine.h; sourceTree = "<group>"; };
+		D3EB468C286EFEE800423BF1 /* RCTinyGameQuickDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTinyGameQuickDemo.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3EB4607286EFD6400423BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A839DE072A4995E6EB203BAB /* libPods-RCTinyGameQuickDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EEC8A4FC03843B9A9D2C56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4573D9D5DD780B52BB660E1D /* Pods-RCTinyGameQuickDemo.debug.xcconfig */,
+				9153BB16EC1D9B53AA0784D6 /* Pods-RCTinyGameQuickDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B44C0E714FE1960769A3D70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B68BDEF5087EDEC0CE421D1 /* libPods-RCTinyGameQuickDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3EB4601286EFD6400423BF1 = {
+			isa = PBXGroup;
+			children = (
+				D3EB460C286EFD6400423BF1 /* RCTinyGameQuickDemo */,
+				D3EB460B286EFD6400423BF1 /* Products */,
+				20EEC8A4FC03843B9A9D2C56 /* Pods */,
+				4B44C0E714FE1960769A3D70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3EB460B286EFD6400423BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB460A286EFD6400423BF1 /* RCTinyGameQuickDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3EB460C286EFD6400423BF1 /* RCTinyGameQuickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB466F286EFEA200423BF1 /* VRSDefine.h */,
+				D3EB468C286EFEE800423BF1 /* RCTinyGameQuickDemo.pch */,
+				D3EB4628286EFEA200423BF1 /* Extension */,
+				D3EB4641286EFEA200423BF1 /* GameList */,
+				D3EB464B286EFEA200423BF1 /* GameRoom */,
+				D3EB463B286EFEA200423BF1 /* Login */,
+				D3EB4667286EFEA200423BF1 /* Manager */,
+				D3EB4637286EFEA200423BF1 /* RCAppDelegate.h */,
+				D3EB4626286EFEA200423BF1 /* RCAppDelegate.mm */,
+				D3EB4638286EFEA200423BF1 /* Service */,
+				D3EB4640286EFEA200423BF1 /* Assets.xcassets */,
+				D3EB4634286EFEA200423BF1 /* zh-Hans.lproj */,
+				D3EB4631286EFEA200423BF1 /* en.lproj */,
+				D3EB461B286EFD6500423BF1 /* LaunchScreen.storyboard */,
+				D3EB461E286EFD6500423BF1 /* Info.plist */,
+				D3EB4627286EFEA200423BF1 /* Localizable.strings */,
+				D3EB461F286EFD6500423BF1 /* main.m */,
+			);
+			path = RCTinyGameQuickDemo;
+			sourceTree = "<group>";
+		};
+		D3EB4628286EFEA200423BF1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4629286EFEA200423BF1 /* UIViewController+CurrentViewController.m */,
+				D3EB462A286EFEA200423BF1 /* UIColor+Hex.m */,
+				D3EB462B286EFEA200423BF1 /* NSString+MD5.h */,
+				D3EB462C286EFEA200423BF1 /* NSArray+VRSModel.h */,
+				D3EB462D286EFEA200423BF1 /* UIViewController+CurrentViewController.h */,
+				D3EB462E286EFEA200423BF1 /* UIColor+Hex.h */,
+				D3EB462F286EFEA200423BF1 /* NSString+MD5.m */,
+				D3EB4630286EFEA200423BF1 /* NSArray+VRSModel.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D3EB4631286EFEA200423BF1 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4632286EFEA200423BF1 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		D3EB4634286EFEA200423BF1 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4635286EFEA200423BF1 /* LaunchScreen.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		D3EB4638286EFEA200423BF1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4639286EFEA200423BF1 /* RCGameService.h */,
+				D3EB463A286EFEA200423BF1 /* RCGameService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D3EB463B286EFEA200423BF1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB463C286EFEA200423BF1 /* LoginViewController.m */,
+				D3EB463D286EFEA200423BF1 /* LoginResponse.h */,
+				D3EB463E286EFEA200423BF1 /* LoginViewController.h */,
+				D3EB463F286EFEA200423BF1 /* LoginResponse.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D3EB4641286EFEA200423BF1 /* GameList */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4642286EFEA200423BF1 /* Model */,
+				D3EB4645286EFEA200423BF1 /* View */,
+				D3EB4648286EFEA200423BF1 /* ViewController */,
+			);
+			path = GameList;
+			sourceTree = "<group>";
+		};
+		D3EB4642286EFEA200423BF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4643286EFEA200423BF1 /* ZUIYOUGameInfo.h */,
+				D3EB4644286EFEA200423BF1 /* ZUIYOUGameInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3EB4645286EFEA200423BF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4646286EFEA200423BF1 /* GameListTableViewCell.m */,
+				D3EB4647286EFEA200423BF1 /* GameListTableViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3EB4648286EFEA200423BF1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4649286EFEA200423BF1 /* GameListViewController.m */,
+				D3EB464A286EFEA200423BF1 /* GameListViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D3EB464B286EFEA200423BF1 /* GameRoom */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB464C286EFEA200423BF1 /* Model */,
+				D3EB4653286EFEA200423BF1 /* View */,
+				D3EB4661286EFEA200423BF1 /* ViewController */,
+			);
+			path = GameRoom;
+			sourceTree = "<group>";
+		};
+		D3EB464C286EFEA200423BF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB464D286EFEA200423BF1 /* RoomUserListResponse.h */,
+				D3EB464E286EFEA200423BF1 /* CreateRoomResponse.m */,
+				D3EB464F286EFEA200423BF1 /* GameMessage.m */,
+				D3EB4650286EFEA200423BF1 /* RoomUserListResponse.m */,
+				D3EB4651286EFEA200423BF1 /* CreateRoomResponse.h */,
+				D3EB4652286EFEA200423BF1 /* GameMessage.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3EB4653286EFEA200423BF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4654286EFEA200423BF1 /* GameSelectView */,
+				D3EB4659286EFEA200423BF1 /* SeatView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3EB4654286EFEA200423BF1 /* GameSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4655286EFEA200423BF1 /* SelectView.m */,
+				D3EB4656286EFEA200423BF1 /* RWTableView.h */,
+				D3EB4657286EFEA200423BF1 /* SelectView.h */,
+				D3EB4658286EFEA200423BF1 /* RWTableView.m */,
+			);
+			path = GameSelectView;
+			sourceTree = "<group>";
+		};
+		D3EB4659286EFEA200423BF1 /* SeatView */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB465A286EFEA200423BF1 /* SeatView.h */,
+				D3EB465B286EFEA200423BF1 /* SeatCell.h */,
+				D3EB465C286EFEA200423BF1 /* RWCollectionView.m */,
+				D3EB465D286EFEA200423BF1 /* SeatView.m */,
+				D3EB465E286EFEA200423BF1 /* SeatCell.m */,
+				D3EB465F286EFEA200423BF1 /* RWCollectionView.h */,
+				D3EB4660286EFEA200423BF1 /* SeatDefine.h */,
+			);
+			path = SeatView;
+			sourceTree = "<group>";
+		};
+		D3EB4661286EFEA200423BF1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4662286EFEA200423BF1 /* GameRoomViewController.h */,
+				D3EB4663286EFEA200423BF1 /* GameRoomViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D3EB4667286EFEA200423BF1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB4668286EFEA200423BF1 /* LaunchManager.h */,
+				D3EB466E286EFEA200423BF1 /* LaunchManager.m */,
+				D3EB4669286EFEA200423BF1 /* User */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D3EB4669286EFEA200423BF1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB466A286EFEA200423BF1 /* UserManager.m */,
+				D3EB466B286EFEA200423BF1 /* User.m */,
+				D3EB466C286EFEA200423BF1 /* UserManager.h */,
+				D3EB466D286EFEA200423BF1 /* User.h */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3EB4609286EFD6400423BF1 /* RCTinyGameQuickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EB4623286EFD6500423BF1 /* Build configuration list for PBXNativeTarget "RCTinyGameQuickDemo" */;
+			buildPhases = (
+				94C8C4598E09B274D7F5D4C5 /* [CP] Check Pods Manifest.lock */,
+				D3EB4606286EFD6400423BF1 /* Sources */,
+				D3EB4607286EFD6400423BF1 /* Frameworks */,
+				D3EB4608286EFD6400423BF1 /* Resources */,
+				D39FF31B2872D1F2002D1AE2 /* Embed Frameworks */,
+				7B4FB351DD927FAC24911034 /* [CP] Embed Pods Frameworks */,
+				269104D541AFD912DABA6FFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTinyGameQuickDemo;
+			productName = RCTinyGameQuickDemo;
+			productReference = D3EB460A286EFD6400423BF1 /* RCTinyGameQuickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3EB4602286EFD6400423BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D3EB4609286EFD6400423BF1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D3EB4605286EFD6400423BF1 /* Build configuration list for PBXProject "RCTinyGameQuickDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = D3EB4601286EFD6400423BF1;
+			productRefGroup = D3EB460B286EFD6400423BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3EB4609286EFD6400423BF1 /* RCTinyGameQuickDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3EB4608286EFD6400423BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EB461D286EFD6500423BF1 /* LaunchScreen.storyboard in Resources */,
+				D3EB4677286EFEA200423BF1 /* LaunchScreen.strings in Resources */,
+				D3EB4671286EFEA200423BF1 /* Localizable.strings in Resources */,
+				D3EB467B286EFEA200423BF1 /* Assets.xcassets in Resources */,
+				D3EB4676286EFEA200423BF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		269104D541AFD912DABA6FFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTinyGameQuickDemo/Pods-RCTinyGameQuickDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTinyGameQuickDemo/Pods-RCTinyGameQuickDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTinyGameQuickDemo/Pods-RCTinyGameQuickDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4FB351DD927FAC24911034 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTinyGameQuickDemo/Pods-RCTinyGameQuickDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCTinyGameQuickDemo/Pods-RCTinyGameQuickDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCTinyGameQuickDemo/Pods-RCTinyGameQuickDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C8C4598E09B274D7F5D4C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCTinyGameQuickDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3EB4606286EFD6400423BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EB4679286EFEA200423BF1 /* LoginViewController.m in Sources */,
+				D3EB4683286EFEA200423BF1 /* RWTableView.m in Sources */,
+				D3EB4678286EFEA200423BF1 /* RCGameService.m in Sources */,
+				D3EB4682286EFEA200423BF1 /* SelectView.m in Sources */,
+				D3EB4689286EFEA200423BF1 /* UserManager.m in Sources */,
+				D3EB4675286EFEA200423BF1 /* NSArray+VRSModel.m in Sources */,
+				D3EB4620286EFD6500423BF1 /* main.m in Sources */,
+				D3EB467F286EFEA200423BF1 /* CreateRoomResponse.m in Sources */,
+				D3EB4684286EFEA200423BF1 /* RWCollectionView.m in Sources */,
+				D3EB4680286EFEA200423BF1 /* GameMessage.m in Sources */,
+				D3EB4681286EFEA200423BF1 /* RoomUserListResponse.m in Sources */,
+				D3EB467C286EFEA200423BF1 /* ZUIYOUGameInfo.m in Sources */,
+				D3EB468A286EFEA200423BF1 /* User.m in Sources */,
+				D3EB467A286EFEA200423BF1 /* LoginResponse.m in Sources */,
+				D3EB4673286EFEA200423BF1 /* UIColor+Hex.m in Sources */,
+				D3EB4674286EFEA200423BF1 /* NSString+MD5.m in Sources */,
+				D3EB468B286EFEA200423BF1 /* LaunchManager.m in Sources */,
+				D3EB467E286EFEA200423BF1 /* GameListViewController.m in Sources */,
+				D3EB4672286EFEA200423BF1 /* UIViewController+CurrentViewController.m in Sources */,
+				D3EB4685286EFEA200423BF1 /* SeatView.m in Sources */,
+				D3EB467D286EFEA200423BF1 /* GameListTableViewCell.m in Sources */,
+				D3EB4687286EFEA200423BF1 /* GameRoomViewController.m in Sources */,
+				D3EB4686286EFEA200423BF1 /* SeatCell.m in Sources */,
+				D3EB4670286EFEA200423BF1 /* RCAppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3EB461B286EFD6500423BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EB461C286EFD6500423BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3EB4632286EFEA200423BF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EB4633286EFEA200423BF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3EB4635286EFEA200423BF1 /* LaunchScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EB4636286EFEA200423BF1 /* zh-Hans */,
+			);
+			name = LaunchScreen.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3EB4621286EFD6500423BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3EB4622286EFD6500423BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3EB4624286EFD6500423BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4573D9D5DD780B52BB660E1D /* Pods-RCTinyGameQuickDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RCTinyGameQuickDemo/RCTinyGameQuickDemo.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RCTinyGameQuickDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RCTinyGameQuickDemo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.scene.game.tiny.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3EB4625286EFD6500423BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9153BB16EC1D9B53AA0784D6 /* Pods-RCTinyGameQuickDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RCTinyGameQuickDemo/RCTinyGameQuickDemo.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RCTinyGameQuickDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RCTinyGameQuickDemo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.scene.game.tiny.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3EB4605286EFD6400423BF1 /* Build configuration list for PBXProject "RCTinyGameQuickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EB4621286EFD6500423BF1 /* Debug */,
+				D3EB4622286EFD6500423BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3EB4623286EFD6500423BF1 /* Build configuration list for PBXNativeTarget "RCTinyGameQuickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EB4624286EFD6500423BF1 /* Debug */,
+				D3EB4625286EFD6500423BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3EB4602286EFD6400423BF1 /* Project object */;
+}

@@ -1,0 +1,36 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <AFNetworking/AFNetworking.h>
+#import <Masonry/Masonry.h>
+#import <YYModel/YYModel.h>
+#import <SVProgressHUD.h>
+#import <SDWebImage/SDWebImage.h>
+
+#import <RCChatroomSceneKit/RCChatroomSceneKit.h>
+
+
+#import "RongIMLib/RCIMClient.h"
+#import <RCVoiceRoomLib/RCVoiceRoomLib.h>
+
+#import <RCTinyGameLib/RCGameEngine.h>
+#import "RCGameService.h"
+
+#import "UserManager.h"
+#import "VRSDefine.h"
+
+#import "UIColor+Hex.h"
+#import "NSArray+VRSModel.h"
+#endif
